@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Righteos";
+    src: url("/fonts/Righteous.ttf") format("truetype");
+}
+
+.h1-text,
+.produceName {
+    font-family: "Righteos";
+}
+
+.produceShadow:hover {
+    box-shadow:
+        5px 5px 10px 1 rgba(183, 0, 255, 1);
+    
+}
+.produceShadow > img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top:10px ;
+}
+.produceShadow > h1 {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.background-animation {
+    background-size: 400%;
+
+    -webkit-animation: gradientCh 1s ease infinite;
+    -moz-animation: gradientCh 1s ease infinite;
+    animation: gradientCh 1s ease infinite;
+}
+
+@keyframes gradientCh {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
+}

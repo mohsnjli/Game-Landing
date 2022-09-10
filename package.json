@@ -1,0 +1,19 @@
+{
+  "name": "blockbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tailwindcss -i ./src/css/input.css -o ./dist/out.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "jquery": "^3.6.0",
+    "postcss": "^8.4.16",
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^3.1.8",
+    "tailwindcss-rtl": "^0.9.0"
+  }
+}
